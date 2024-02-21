@@ -128,7 +128,7 @@ function Header() {
                     <Menu items={currentUser ? userMenu : MENU_ITEMS} onChange={handleMenuChange}>
                         {currentUser ? (
                             <Image
-                                src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/147367105_3862888187067319_6803888157118605918_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=mPh7izRQn9YAX-h3eVv&_nc_ht=scontent.fdad2-1.fna&oh=00_AfBLTaOffeuS50JyeUN2qPSlyIDu8IPufVMebKLGlWDWTQ&oe=63C27D0F"
+                                src="https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/361290535_6566713696684741_3391169434008581464_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=4cx4pa0Hbd0AX-VLT6_&_nc_ht=scontent.fdad1-3.fna&oh=00_AfCs0zP7UyoedbEYG7bO1X54Zk-lsDgs1R5YCad0Fix0kw&oe=65DA4939"
                                 className={cx('user-avatar')}
                                 alt="Nguyen Van A"
                                 fallback="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/147367105_3862888187067319_6803888157118605918_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=mPh7izRQn9YAX-h3eVv&_nc_ht=scontent.fdad2-1.fna&oh=00_AfBLTaOffeuS50JyeUN2qPSlyIDu8IPufVMebKLGlWDWTQ&oe=63C27D0F"
